@@ -1,0 +1,48 @@
+.deroulent {margin-right: 40px; padding: 10px; transition: 0.2s; border-top-right-radius: 5px; border-top-left-radius: 5px;}
+.deroulent:hover {margin-right: 40px; padding: 10px; background-color: #70798c; transition: 0.3s; border-top-right-radius: 15px; border-top-left-radius: 15px;}
+
+li {list-style: none; font-size: 20px;}
+
+ul {text-align: center; display: flex; justify-content: center;}
+a {text-decoration: none; color: white;}
+.sv:hover{ cursor: default }
+
+.color-black {text-decoration: none;color: black; transition: 0.2s}
+#nav {background-color: #5b5c5c; padding: 5px; margin: -0.9vh;}  
+body {background-color: #C6C8CA; background-repeat; background-size: cover;}
+body {margin: 0px; padding: 0px}
+
+.deroulent {
+  position: relative;
+  display: inline-block;
+}
+
+.sous-menu {
+ 	display: none;
+ 	position: absolute;
+ 	background-color: #5C6578;
+ 	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 	padding: 12px 16px;
+ 	z-index: 1;
+  	color: black
+
+}
+
+.deroulent:hover .sous-menu {
+  display: block;
+  border-radius: 15px;
+}
+
+.sous-menu {
+  margin-top: 10px;
+  right: -20px;
+}
+
+.color-black:hover {color: #abb5c9; transition: 0.2s}
+
+#footer {margin: 1px; background: #666; color: white; }
+.conteneur {min-height: calc(100vh - 70px);}
+#footer {height: 50px;}
+
+#fc {text-align: center; padding: 15px}

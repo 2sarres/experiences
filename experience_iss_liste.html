@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+<title>home</title>
+<link rel="stylesheet" type="text/css" href="style_iss_liste.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+</head>
+<body>
+	<div id='nav'>
+		<ul>
+			<li class="deroulent"><a href="index.html">home</a></li>
+			<li class="deroulent"><a href='#' class="iss sv m">experiences iss</a>
+				<ul class="sous-menu">
+					<li><a href="#" class="color-black">perte d'energie</a></li>
+				</ul>
+			</li>
+			<li class="deroulent"><a href="#" class="blob sv m">experiences blob</a>
+				<ul class="sous-menu">
+					<li><a href="#" class="color-black">autre</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="conteneur">
+		<div id="img">
+			<img src="https://www.techniques-ingenieur.fr/actualite/wp-content/uploads/2019/12/ISS.jpg" id="img-iss">
+		</div>
+		<div id="titre">
+			<h1 class="ac">calories dépensées en 24 heures en s'adaptant aux temperatures des 16 couchés/levés de soleil dans l'iss</h1>
+		</div>
+		<div id="des_p">
+			<p id="des">Chaque jour, durant le coucher du soleil, le corps humain doit utiliser beaucoup d’énergie pour s'adapter aux changements de température.
+Quelle quantité d'énergie le corps humain doit-il mobiliser dans l'ISS, ou il y a 16 couchers et levers de soleil par jour ?
+Nous comptons mener notre expérience en calculant le nombre de calories dépensées pour s'adapter aux nouvelles températures seize fois par 24 heures dans l’ISS (soit deux fois en trois heures). <br>
+Pour cela, nous allons nous servir des capteurs de température et d'humidité, et de la camera pour obtenir la couleur d’un pixel déterminant la luminosité.
+Nous allons enregistrer ces données de manière chronologique dans un fichier CSV. Une fois les données récupérées et de retour sur terre nous en ferons des graphiques, et nous calculerons les calories dépensées en 24h. 
+</p>
+		</div>
+		<div id="set-up">
+			<h2 class="ac">mise en place du materiel pour l'experience temoin</h2>
+			<div class="l-f">
+			<h2>le materiel :</h2>
+			<p class="liste-m">
+				(si vous n'avez pas tous ça, vous pouvez aussi le faire grace a <a id="trinket" href="https://trinket.io/sense-hat" target="_blank">l'emulateur sense hat trinket</a>)<br><br>
+				-une raspberry pi<br>
+				<img src="img/raspberry.jpg" class="l-m"><br>
+				-un sense hat<br>
+				<img src="img/sense-hat.jpg" class="l-m"><br>
+				-une camera pour raspberry pi<br>
+				<img src="img/picam.jpg" class="l-m"><br>
+				-un ecran<br>
+				<img src="img/ecran.jpg" class="l-m"><br>
+				-une souris<br>
+				<img src="img/souris.jpg" class="l-m"><br>
+				-un clavier<br>
+				<img src="img/clavier.jpg" class="l-m"><br>
+			</p>
+			</div>
+			<div id="branchement" class="l-f">
+				<h2>branchement :</h2>
+				<p class="liste-m">
+					on essemble la raspberry et le sense hat<br>
+					<img src="img/raspberry-b-s.jpg" class="l-m"><br>
+					on alimante et on branche la raspberry a l'ecran<br>
+					<img src="img/raspberry-b-h.jpg" class="l-m"><br>
+					on branche le clavier et la souris sur la raspberry<br>
+					<img src="img/raspberry-b-u.jpg" class="l-m">
+				</p>
+			</div>
+			<div id="s-b" class="l-f">
+				<h2>le programme</h2>
+				<p class="liste-m">
+					une fois branchée, le raspberry s'allume.<br>
+					on se retrouve sur le bureau<br>
+					<img src="img/b.jpg" class="l-m"><br>
+					on va dans l'application thonny ide<br>
+					<img src="img/b-t.png" class="l-m"><br>
+					<img src="img/t-2.jpg" class="l-m"><br>
+					on y lance le programme puis on attend 3 heures (programme disponible sur github en bas de la page)<br><br>
+					a la fin, on recupere le fichier 'data.csv' et on en fait un graphique.
+				</p>
+			</div>
+		</div>
+		<div id="ex_t">
+			<h2 class="ac">resultat experience temoin</h2>
+			<div id="graphique-temoin">
+				<img src="img/graphique_temoin.png" id="gt">
+				<center><p>(laisser le clique enfoncer pour agrendir)</p></center>
+				<div id="d-z-2"><a href="download/resultats_experience_temoin_iss_perte_d_energie.zip" download><img src="img/download-e-g.jpg" id="d-z"></a></div>
+
+			</div>
+			<div id="github">
+				<a href="https://github.com/College-2-sarres/ex-iss---perte-d-energie" target="_blank"><img src="img/github.png" id="githubimg"></a>
+			</div>
+		</div>
+	<div class="btn">
+		<img src="img/fleche.svg" class="icon">
+	</div>
+	<div id="footer">
+	<p id="fc">copyright © 2021. Tout droits reservés. Nathan KELLER. <a href="https://github.com/College-2-sarres/ex-iss---perte-d-energie" target="_blank" id="g-f">Github</a></p>
+	</div>
+	<script type="text/javascript" src="js/btn.js"></script>
+</body>
+</html>
