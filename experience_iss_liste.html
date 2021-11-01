@@ -9,16 +9,16 @@
 </head>
 <body>
 	<div id='nav'>
-		<ul>
-			<li class="deroulent"><a href="index.html">home</a></li>
-			<li class="deroulent"><a href='#' class="iss sv m">experiences iss</a>
+		<ul class="md">
+			<li class="deroulent mdd"><a href="index.html">home</a></li>
+			<li class="deroulent mdd"><a href='#' class="iss sv m">experiences iss</a>
 				<ul class="sous-menu">
-					<li><a href="#" class="color-black">perte d'energie</a></li>
+					<li class="mdd"><a href="#" class="color-black">perte d'energie</a></li>
 				</ul>
 			</li>
-			<li class="deroulent"><a href="#" class="blob sv m">experiences blob</a>
+			<li class="deroulent mdd"><a href="#" class="blob sv m">experiences blob</a>
 				<ul class="sous-menu">
-					<li><a href="#" class="color-black">autre</a></li>
+					<li class="mdd"><a href="#" class="color-black">autre</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -27,14 +27,23 @@
 		<div id="img">
 			<img src="https://www.techniques-ingenieur.fr/actualite/wp-content/uploads/2019/12/ISS.jpg" id="img-iss">
 		</div>
+		<div id="sommaire_bc">
 		<div id="sommaire">
-			<a href="#titre">description du projet</a>
-				<p>experience temoin</p>
-				<a href="#l-m-s">liste du materiel</a>
-				<a href="#branchement">les branchements</a>
-				<a href="#s-b">le programme</a>
-				<a href="#ex_t">resultat</a>
-
+			<ul id="sommaire_ul_p">
+				<ul>
+					<h2 id="shh">sommaire :</h2>
+					<li><a href="#titre" class="sh">description du projet</a><br></li>
+					<span class="sn">experience temoin :</span><br>
+					<li><span>&emsp;&emsp;</span><a href="#l-m-s" class="sh">liste du materiel</a><br></li>
+					<li><span>&emsp;&emsp;</span><a href="#branchement" class="sh">les branchements</a><br></li>
+					<li><span>&emsp;&emsp;</span><a href="#s-b" class="sh">le programme</a><br></li>
+					<li><span>&emsp;&emsp;</span><a href="#ex_t" class="sh">resultat</a><br></li>
+				</ul>
+				<ul>
+					<span class="sn">experience réel :</span>
+				</ul>
+			</ul>
+		</div>
 		</div>
 		<div id="titre">
 			<h1 class="ac">calories dépensées en 24 heures en s'adaptant aux temperatures des 16 couchés/levés de soleil dans l'iss</h1>
@@ -113,5 +122,6 @@ Nous allons enregistrer ces données de manière chronologique dans un fichier C
 	<p id="fc">copyright © 2021. Tout droits reservés. Nathan KELLER. <a href="https://github.com/College-2-sarres/ex-iss---perte-d-energie" target="_blank" id="g-f">Github</a></p>
 	</div>
 	<script type="text/javascript" src="js/btn.js"></script>
+	<!--<script type="text/javascript" src="js/background.js"></script>-->
 </body>
 </html>

@@ -1,4 +1,4 @@
-let myDiv = document.querySelector('.iss');
+/*let myDiv = document.querySelector('.iss');
 let back  = document.querySelector('body')
 myDiv.addEventListener('mouseover', () => {
     back.style.backgroundImage = `url('https://cdn.futura-sciences.com/buildsv6/images/wide1920/5/4/4/544bab25a3_50169469_iss-20-ans.jpg')`;
@@ -17,5 +17,16 @@ myDiv2.addEventListener('mouseover', () => {
 });
 myDiv2.addEventListener('mouseleave', () => {
     back2.style.backgroundImage = null;
+
+});*/
+
+let myDiv = document.querySelector('.sh');
+let back  = document.querySelector('#sommaire_bc')
+myDiv.addEventListener('mouseover', () => {
+    back.style.padding = "5px";
+
+});
+myDiv.addEventListener('mouseleave', () => {
+    back.style.padding = "10px";
 
 });
