@@ -8,7 +8,7 @@ a {text-decoration: none; color: white;}
 .sv:hover{ cursor: default }
 
 .color-black {text-decoration: none;color: black; transition: 0.2s}
-#nav {background-color: #5b5c5c; padding: 5px; margin: -0.9vh;}  
+#nav {background-color: #5b5c5c; padding: 5px;}  
 body {background-color: #C6C8CA; background-repeat; background-size: cover;}
 body {margin: 0px; padding: 0px}
 
@@ -41,8 +41,8 @@ body {margin: 0px; padding: 0px}
 
 .color-black:hover {color: #abb5c9; transition: 0.2s}
 
-#footer {margin: 1px; background: #666; color: white; }
-.conteneur {min-height: calc(100vh - 70px);}
+#footer {margin: 0px; background: #666; color: white; }
+.conteneur { min-height: calc(100vh - 70px);}
 #footer {height: 50px;}
 
 #fc {text-align: center; padding: 15px}

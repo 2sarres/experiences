@@ -18,7 +18,7 @@ myDiv2.addEventListener('mouseover', () => {
 myDiv2.addEventListener('mouseleave', () => {
     back2.style.backgroundImage = null;
 
-});*/
+});
 
 let myDiv = document.querySelector('.sh');
 let back  = document.querySelector('#sommaire_bc')
@@ -30,3 +30,6 @@ myDiv.addEventListener('mouseleave', () => {
     back.style.padding = "10px";
 
 });
+*/
+const changeDOM = document.getElementById('btn');
+changeDOM.style.display = 'flex'
