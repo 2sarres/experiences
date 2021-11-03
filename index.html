@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <noscript><meta http-equiv="Refresh" content="0; url=nojs.html" /></noscript>
 </head>
-<body>
+<body onload="DetectTheThing()">
 	<div id='nav'>
 		<ul>
 			<li class="deroulent"><a href="#">home</a></li>
@@ -29,6 +29,18 @@
 	<p id="fc">copyright © 2021. Tout droits reservés. Nathan KELLER. <a href="https://github.com/College-2-sarres/ex-iss---perte-d-energie" target="_blank" id="g-f">Github</a></p>
 	</div>
 	<!--<script type="text/javascript" src="js/background.js"></script>-->
-	
+	<script type="text/javascript">
+    function DetectTheThing()
+    {
+       	var uagent = navigator.userAgent.toLowerCase();
+       	if (uagent.search("iphone") > -1  
+       	|| uagent.search("Android") > -1 || uagent.search("blackberry") > -1
+       	|| uagent.search("webos") > -1)
+          	alert('telephone')
+        else
+        	alert('pt')
+
+    }
+	</script>
 </body>
 </html>
