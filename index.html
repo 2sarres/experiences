@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <noscript><meta http-equiv="Refresh" content="0; url=nojs.html" /></noscript>
 </head>
-<body onload="DetectTheThing()">
+<body>
 	<div id='nav'>
 		<ul>
 			<li class="deroulent"><a href="#">home</a></li>
@@ -30,17 +30,12 @@
 	</div>
 	<!--<script type="text/javascript" src="js/background.js"></script>-->
 	<script type="text/javascript">
-    function DetectTheThing()
-    {
-       	var uagent = navigator.userAgent.toLowerCase();
-       	if (uagent.search("iphone") > -1  
-       	|| uagent.search("Android") > -1 || uagent.search("blackberry") > -1
-       	|| uagent.search("webos") > -1)
-          	alert('telephone')
-        else
-        	alert('pt')
-
-    }
+	if( /Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent) ) {
+	     alert('dgsdh')
+	}
+	else {
+	    alert('pm')
+	}
 	</script>
 </body>
 </html>
