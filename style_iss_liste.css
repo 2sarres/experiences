@@ -38,7 +38,7 @@ img#d-z:hover {width: 220px; border-radius: 10px; height: auto; transition: 0.3s
 #g-f {margin-left: 30px; color: #E5E8F1; text-decoration-line: underline;}
 
 
-body {margin: 0px; padding: 0px}
+body {margin: 0px; padding: 0px;}
 
 .ac {text-align: center; margin: 50px 0px 40px 0px; font-family: sans-serif; }
 #des {font-size: 20px; font-family: cursive; text-align: justify; padding-right: 60px; padding-left: 60px}
