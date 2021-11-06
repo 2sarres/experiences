@@ -29,9 +29,7 @@ a#im {}
 .color-black:hover {color: #abb5c9;font-size: 21px ;transition: 0.2s}
 
 img#img-iss {width: 100%; margin-top: 0px;}
-img#gt {display: block;margin-right: auto;margin-left: auto; width: 550px; transition: 0.3s}
-img#gt {cursor: pointer;}
-img#gt:active {width: 900px; transition: 0.3s}
+img#gt {display: block;margin-right: auto;margin-left: auto; width: 550px;}
 img.githubimg {border-radius: 15px; width: auto; height: 60px; background-color: #30FF0F; margin-left: 4px; margin-right: auto; transition: 1s}
 img.githubimg:hover {background-color: #3155DA; transition: 1s}
 img#d-z {width: 200px; border-radius: 10px; height: auto; transition: 0.3s}
