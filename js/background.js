@@ -33,3 +33,6 @@ myDiv.addEventListener('mouseleave', () => {
 */
 const changeDOM = document.getElementById('btn');
 changeDOM.style.display = 'flex'
+
+const changeDOM2 = document.getElementById('btn2');
+changeDOM2.style.display = 'none'
