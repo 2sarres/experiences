@@ -8,3 +8,4 @@ btn.addEventListener('click', () => {
         behavior: "smooth"
     })
 })
+
