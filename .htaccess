@@ -72,3 +72,5 @@ deny from all
 
 # protection de la lecture des répertoires
 Options -Indexes
+
+ErrorDocument 404 / erreur/404.html
