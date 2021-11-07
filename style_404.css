@@ -3,7 +3,7 @@
  width: 100%;
 }
 
-body {background-image: url('');}
+body {background-image: url(''); margin: 0px; padding: 0px;}
 
 #v {
  display: none;
