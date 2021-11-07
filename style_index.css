@@ -41,7 +41,7 @@ body {margin: 0px; padding: 0px}
 
 .color-black:hover {color: #abb5c9; transition: 0.2s}
 
-#footer {margin: 0px; background: #666; color: white; }
+#footer {margin: 0px; background: #666; color: white;}
 .conteneur { min-height: calc(100vh - 70px);}
 #footer {height: 50px;}
 

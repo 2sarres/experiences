@@ -1,3 +1,9 @@
+video=document.getElementById('v');
+function removeControls(video){
+  video.removeAttribute('controls');
+}
+window.onload=removeControls(video);
+
 const secret = document.getElementById('secret');
 
 secret.addEventListener('click', () => {

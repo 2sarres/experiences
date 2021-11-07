@@ -1,14 +1,10 @@
 #img-bg {
- /* Fixe l'image en haut à gauche de la page */
- position: fixed; 
- top: 0; 
- left: 0; 
- /* Préserve le ratio de l'image */
+
  min-width: 100%;
  min-height: 100%;
 }
 
-body {background-image: url('');}
+body {background-image: url('');overflow-y: hidden;}
 
 #v {
  display: none;
