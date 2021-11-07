@@ -1,7 +1,6 @@
 #img-bg {
  /* Fixe l'image en haut à gauche de la page */
  width: 100%;
- height: auto;
 }
 
 body {background-image: url('');}
