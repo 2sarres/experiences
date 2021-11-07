@@ -18,6 +18,3 @@ body {background-image: url('');overflow-y: hidden;}
 
 #secret {cursor: initial;}
 
-video::-webkit-media-controls-start-playback-button {
-    display: none;
-}
