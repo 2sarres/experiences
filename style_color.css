@@ -1,0 +1,76 @@
+ 
+body {background-color: #C6C8CA;}
+#fond {padding: 50px; background-color: black;}
+
+.deroulent {margin-right: 40px; padding: 10px; transition: 0.2s; border-top-right-radius: 5px; border-top-left-radius: 5px;}
+.deroulent:hover {margin-right: 40px; padding: 10px; background-color: #70798c; transition: 0.3s; border-top-right-radius: 15px; border-top-left-radius: 15px;}
+
+#tc {border-radius: 15px !important;}
+
+li {list-style: none;}
+li.mdd {font-size: 20px;}
+
+ul.md {text-align: center; display: flex; justify-content: center;}
+a {text-decoration: none; color: white;}
+a#im {}
+.sv:hover{ cursor: default }
+
+#trinket {color: #505050; text-decoration-line: underline;}
+
+.color-black {text-decoration: none;color: black; transition: 0.2s}
+#nav {background-color: #5b5c5c; padding: 5px;}  
+
+.deroulent {position: relative;display: inline-block;}
+
+.sous-menu {display: none;position: absolute;background-color: #5C6578;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);padding: 12px 16px;z-index: 1;color: black}
+
+.deroulent:hover .sous-menu {display: block;border-radius: 15px;}
+
+.sous-menu {margin-top: 10px;right: -20px;}
+
+.color-black:hover {color: #abb5c9;font-size: 21px ;transition: 0.2s}
+
+img#img-iss {width: 100%; margin-top: 0px;}
+img#gt {display: block;margin-right: auto;margin-left: auto; width: 550px;}
+img.githubimg {border-radius: 15px; width: auto; height: 60px; background-color: #30FF0F; margin-left: 4px; margin-right: auto; transition: 1s}
+img.githubimg:hover {background-color: #3155DA; transition: 1s}
+img#d-z {width: 200px; border-radius: 10px; height: auto; transition: 0.3s}
+img#d-z:hover {width: 220px; border-radius: 10px; height: auto; transition: 0.3s;}
+.github {margin-top: 20px; margin-bottom: 20px;}
+#g-f {margin-left: 30px; color: #E5E8F1; text-decoration-line: underline;}
+
+
+body {margin: 0px; padding: 0px;}
+
+.ac {text-align: center; margin: 50px 0px 40px 0px; font-family: sans-serif; }
+#des {font-size: 20px; font-family: 'Short Stack', cursive; padding-right: 60px; padding-left: 60px; text-align: center;}
+#desc2 {font-size: 20px; font-family: 'Short Stack', cursive;}
+
+#footer {margin: 0px; background: #666; color: white; }
+.conteneur { min-height: calc(100vh - 70px);}
+#footer {height: 50px;}
+
+
+#fc {text-align: center; padding: 15px}
+
+#btn {height: 50px;width: 50px;background: #ACACAC;border-radius: 50%;display: none;justify-content: center;align-items: center;position: fixed;right: 20px;bottom: 20px;cursor: pointer;padding: 10px;border: 3px black solid;opacity: 0.8;}
+#btn2 {height: 50px;width: 50px;background: #ACACAC;border-radius: 50%;display: block;justify-content: center;align-items: center;position: fixed;right: 20px;bottom: 20px;cursor: pointer;padding: 10px;border: 3px black solid;opacity: 0.8;}
+.icon {width: 50px;}
+
+
+.l-f {margin-left: 20px}
+.liste-m {font-size: 20px}
+
+img.l-m {height: 400px; margin-bottom: 15px; margin-top: 10px}
+#d-z-2 {text-align: center;}
+
+#sommaire {margin-left: 42%; font-size: 18px; color: white; }
+#sommaire_bc {background-color: #5B5C5C; padding: 10px}
+.sn {color: #E3E3E3}
+.sh {transition: 0.2s}
+.sh:hover {text-decoration-line: underline; font-size: 19px; transition: 0.2s}
+#shh {margin-bottom: 5px;}
+
+#souligne {text-decoration-line: underline; color: #525252; }
+
+#video-temoin {text-align: center;}
