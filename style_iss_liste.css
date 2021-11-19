@@ -5,6 +5,8 @@ body {background-color: #C6C8CA;}
 .deroulent {margin-right: 40px; padding: 10px; transition: 0.2s; border-top-right-radius: 5px; border-top-left-radius: 5px;}
 .deroulent:hover {margin-right: 40px; padding: 10px; background-color: #70798c; transition: 0.3s; border-top-right-radius: 15px; border-top-left-radius: 15px;}
 
+#tc {border-radius: 15px !important;}
+
 li {list-style: none;}
 li.mdd {font-size: 20px;}
 
@@ -41,7 +43,7 @@ img#d-z:hover {width: 220px; border-radius: 10px; height: auto; transition: 0.3s
 body {margin: 0px; padding: 0px;}
 
 .ac {text-align: center; margin: 50px 0px 40px 0px; font-family: sans-serif; }
-#des {font-size: 20px; font-family: cursive; text-align: justify; padding-right: 60px; padding-left: 60px}
+#des {font-size: 20px; font-family: 'Short Stack', cursive;; text-align: justify; padding-right: 60px; padding-left: 60px}
 
 #footer {margin: 0px; background: #666; color: white; }
 .conteneur { min-height: calc(100vh - 70px);}
